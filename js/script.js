@@ -1,19 +1,5 @@
-$(document).ready(function(){
-
-$('.vbelt').click (function(){
-  
-  $('.detail-text').toggle(500).css('display','inline-block');
- 
-  $('.detail-img').toggle(500).css('display','inline-block');
-})
-
-
-
-
-
-
-
-
-
-
-})
+$(document).ready(function () {
+	$('.power').click(function () {
+		$(this).siblings().toggle(500).css('display', 'block');
+	});
+});
