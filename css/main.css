@@ -11,7 +11,8 @@
 	height: 80vh;
 }
 
-.power {
+.power,
+.bearing {
 	text-decoration: none;
 	border: 2px solid black;
 	padding: 5px;
@@ -21,6 +22,15 @@
 	background-color: #69a1c1;
 	color: white;
 	width: 300px;
+}
+
+.bearing-tab {
+	text-decoration: none;
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: left;
+	color: #69a1c1;
+	cursor: pointer;
 }
 
 .power:active {
@@ -90,4 +100,51 @@
 
 .none {
 	display: none;
+}
+
+.container {
+	width: 500px;
+	margin: 100px auto;
+}
+.ui-widget-header {
+	background: none;
+	border: none;
+}
+#tabs {
+	border: none;
+}
+.ui-tabs .ui-tabs-panel {
+	border: 1px solid lightgrey;
+	border-radius: 2px;
+	padding: 5% 10%;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+	background: steelblue;
+	border: none;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+	background: lightseagreen;
+}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited,
+a.ui-button,
+a:link.ui-button,
+a:visited.ui-button,
+.ui-button {
+	color: white;
+}
+
+.tab {
+	margin: 0;
 }
