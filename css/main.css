@@ -162,3 +162,49 @@ a:visited.ui-button,
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+.tm-col-about-l{
+	text-align: justify;
+}
+
+
+  .uvp-list ul {
+	display: inline-block;
+	border: solid 1px #bababa;
+	padding: 1rem 2rem;
+	max-width: 600px;
+	text-align: left;
+  }
+  
+  .uvp-list ul {
+	list-style: none;
+  }
+  
+  .uvp-list ul > li {
+	clear: left;
+	padding: .5rem 0;
+  }
+   
+  .uvp-list ul > li:before {
+	content: "";
+	height: 1.5rem;
+	width: 1.5rem;
+	display: block;
+	float: left;
+	margin-left: -1.5rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%:
+  }
+  
+  .uvp-list ul > li:before { 
+	background: url("https://info.openpath.com/hubfs/checkmark-round-orange.svg");
+	background-size: cover;
+	background-position: center;
+	padding: .15rem;
+  }
+
+.slick{
+	margin-left:0;
+	max-width:100%;
+}
