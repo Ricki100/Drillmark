@@ -148,3 +148,17 @@ a:visited.ui-button,
 .tab {
 	margin: 0;
 }
+
+.nav-power {
+	position: relative;
+	color: #006699;
+	font-size: 1.4rem;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.nav-bearing {
+	list-style: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

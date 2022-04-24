@@ -6,7 +6,7 @@
 $(document).ready(function () {
 	/*************** Navigation *****************/
 
-	$('#tm-main-nav').singlePageNav({
+	$('').singlePageNav({
 		filter: ':not(.external)',
 	});
 
