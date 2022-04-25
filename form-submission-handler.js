@@ -1,14 +1,14 @@
 
-$('#contactForm').submit(function(e) {
+$('#contact-form').submit(function(e) {
     e.preventDefault();
     
     $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbxX686CQsh8IhZOTQj42XvKZ-JMNcGHQygPtAYAChNqDbp7zK0t/exec",
+        url: "https://script.google.com/macros/s/AKfycbz8h5hmzjPD5Rjt651GadPT1bsIbadLYlO_tHE43LW-KsT30IIb/exec",
         data: $(this).serialize(),
         type: "POST",
         dataType: "xml",
         success: function(data) {
-          document.getElementById("contactForm").reset();
+          document.getElementById("contact-form").reset();
                  },
         error: function(xhr, status, error) {
             console.log('Submission failed: ' + error);
