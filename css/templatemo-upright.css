@@ -6,7 +6,7 @@ body {
 	overflow-x: hidden;
 }
 body {
-	font-family: 'Kumbh Sans', sans-serif;
+	font-family: 'montserrat', sans-serif;
 }
 div,
 a,
@@ -15,7 +15,7 @@ p {
 }
 p,
 address {
-	line-height: 1.8;
+	line-height: 25px;
 }
 a {
 	transition: all 0.3s ease;

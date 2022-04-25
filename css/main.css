@@ -194,7 +194,7 @@ a:visited.ui-button,
 	margin-left: -1.5rem;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100%:
+	background-size: 100%;
   }
   
   .uvp-list ul > li:before { 
@@ -206,5 +206,65 @@ a:visited.ui-button,
 
 .slick{
 	margin-left:0;
-	max-width:100%;
+	width:100%;
 }
+
+.header-box{
+	text-align: center;
+
+}
+
+.header{
+	display: inline-block;
+	vertical-align: top;
+
+	font-size: 1.2rem;
+	text-align: center;
+	
+}
+
+.headline{
+
+	font-size: 1.5rem;
+	
+
+}
+
+
+	.model-box{
+	  max-width: 90%;
+	  max-height: 100%;
+	  text-align: center;
+	}
+
+	.model{
+		max-width: 100%;
+		max-height: 100%;
+		
+		
+	}
+
+	.brand-container{
+		
+			width: 100%;
+			padding-right: 15px;
+			padding-left: 15px;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+		
+	}
+
+	.brands{
+		height: 400px;
+		width: 400px;
+		display: inline-block;
+	}
+	.blogo{
+		max-width: 100%;
+		max-height: 100%;
+		
+	}
+
+
+
